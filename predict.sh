@@ -28,7 +28,7 @@ gcloud beta notebooks instances create $PROJECTID \
   --quiet
 
 # Check my progress
-read -n1 -r -p "Wait for 30 seconds for Notebook instance to get ready, click \"#2 Create the AI Platform notebook instance\" [Check my progress] button to complete, once done press any key to continue to next stage 3/4..."
+read -n1 -r -p "Wait for 1 minute for Notebook instance proxy setup, click \"#2 Create the AI Platform notebook instance\" [Check my progress] button to complete, once done press any key to continue to next stage 3/4..."
 
 # Download pre-simplified Jupyter Notebook from GitHub into temporary folder
 curl -o /tmp/cloud-ml-housing-prices.ipynb https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb
