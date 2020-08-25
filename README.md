@@ -17,7 +17,7 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 7. Follow on screen instruction on Cloud Shell to complete this lab
 
 ## Credit
-Senpai Gil - The Linux Guru for sharing tip and trick
+Senpai Gil - The Linux Guru for sharing command tip and trick.
 
 ## Limitation
 
@@ -25,7 +25,7 @@ Unable to accept Google Cloud Term and Condition from SDK/API, still exploring a
 
 ## Workaround
 
-Login to Google Cloud Console and accept Google Cloud Term and Condition
+Login to Google Cloud Console and accept Google Cloud Term and Condition.
 
 ## Reference 
 
