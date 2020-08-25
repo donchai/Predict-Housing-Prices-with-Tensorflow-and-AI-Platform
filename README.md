@@ -35,10 +35,10 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
 
 ## Help
-Contributors are welcome to participate in enhancing the automate deployment e.g.   
-  -- Interact with Google Console via command line (to grab username and password)   
+Contributors are welcome to participate in this project to enhance the deployment scripts in order to achieve full automation e.g.   
+  -- Interact with Google Console via command line (to obtain username and password)   
   -- Accepting Google Cloud Platform Terms of Service via command line   
-  -- Enhance the scripts to speed up the deployment time   
+  -- Optimze the scripts to speed up the deployment time   
   -- Others
 
 ## Credit
@@ -54,6 +54,6 @@ Login to Google Cloud Console and accept Google Cloud Platform Terms of Service.
 https://google.qwiklabs.com/focuses/3644?parent=catalog
 
 ## Remark
-1. File extension with .orig refer to original file without modification/simplification. 
-2. File extension with .bak refer to modified file for reference purpose - not usable.
+1. File extension with .orig refer to original file without modification/simplification for reference purpose, not in use during deployment. 
+2. File extension with .bak refer to development file for future enhancement reference - not in use during deployment.
 
