@@ -2,7 +2,7 @@
 
 ## Objective
 
-Automate deployment, simplify provisioning steps to achieve speed and accuracy.
+Automate deployment, simplify code for provisioning to achieve speed and accuracy.
 
 ## Guide
 
@@ -52,3 +52,8 @@ Login to Google Cloud Console and accept Google Cloud Platform Terms of Service.
 
 ## Reference 
 https://google.qwiklabs.com/focuses/3644?parent=catalog
+
+## Remark
+1. File extension with .orig refer to original file without modification/simplification. 
+2. File extension with .bak refer to modified file for reference purpose - not usable.
+
