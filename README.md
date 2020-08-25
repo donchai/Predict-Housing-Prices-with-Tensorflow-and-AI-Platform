@@ -9,8 +9,8 @@ Automate deployment, simplify provisioning steps to achieve speed and accuracy.
 ### Steps to perform this Qwiklabs
 1. Visit lab URL (https://google.qwiklabs.com/focuses/3644?parent=catalog) and login to your Qwiklabs account
 2. Launch this lab
-3. Open Google Cloud Console
-4. Accept Google Cloud Term and Condition
+3. Open Google Console
+4. Accept Google Cloud Term of Service
 5. Activate Cloud Shell
 6. Type following command and hit enter  
 source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/predict.sh)
@@ -25,7 +25,7 @@ Unable to accept Google Cloud Term and Condition from SDK/API, still exploring a
 
 ## Workaround
 
-Login to Google Cloud Console and accept Google Cloud Term and Condition.
+Login to Google Cloud Console and accept Google Cloud Term of Service.
 
 ## Reference 
 
