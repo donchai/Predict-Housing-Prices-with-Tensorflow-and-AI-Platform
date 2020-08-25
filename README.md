@@ -45,10 +45,10 @@ Contributors are welcome to participate in this project to enhance the deploymen
 Senpai Gil - The Linux Guru for sharing command tip and trick.
 
 ## Limitation
-Unable to accept Google Cloud Term and Condition from SDK/API, still exploring alternative to automate this manual step.
+Unable to accept Google Cloud Term and Condition from SDK/API or via command line, still finding/exploring alternative to automate this manual step.
 
 ## Workaround
-Login to Google Cloud Console and accept Google Cloud Platform Terms of Service.
+Login to Google Console and accept Google Cloud Platform Terms of Service.
 
 ## Reference 
 https://google.qwiklabs.com/focuses/3644?parent=catalog
