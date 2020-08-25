@@ -17,12 +17,18 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 7. Follow on screen instruction on Cloud Shell to complete this lab
 
 ## Screenshot
-1. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/tnc.png?raw=true) 
-2. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step1.png?raw=true) 
-3. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step2.png?raw=true) 
-4. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step3.png?raw=true) 
-5. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-beforecomplete.png?raw=true) 
-6. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
+1. Accept Google Cloud Platform Terms of Service  
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/tnc.png?raw=true) 
+2. Stage 1 "Create Storage Bucket"  
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step1.png?raw=true) 
+3. Stage 2 "Create the AI Platform notebook instance"
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step2.png?raw=true) 
+4. Stage 3 "Download lab notebook"
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step3.png?raw=true) 
+5. Stage 4 Before Complete "Train and deploy the Model for Predictions"
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-beforecomplete.png?raw=true) 
+6. Stage 4 After Complete "Train and deploy the Model for Predictions"
+![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
 
 ## Credit
 Senpai Gil - The Linux Guru for sharing command tip and trick.
