@@ -6,6 +6,10 @@ Automate deployment, simplify provisioning steps to achieve speed and accuracy.
 
 ## Guide
 
+### How It Works
+Original training file "cloud-ml-housing-prices.ipynb" was simplified (removed markdown and extracted bash commands into bash shell script) and only left with Jupyter notebook executable syntax.
+A single bash script was created with extracted bash commands from original training file and were coded systematically to be executed as per lab requirement.
+
 ### Steps to perform this Qwiklabs
 1. Visit lab URL (https://google.qwiklabs.com/focuses/3644?parent=catalog) and login to your Qwiklabs account
 2. Launch this lab
@@ -30,14 +34,11 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 6. Stage 4 After Complete "Train and deploy the Model for Predictions"
 ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
 
-## How It Works
-Original training file "cloud-ml-housing-prices.ipynb" was simplified (removed markdown and extracted bash commands into bash shell script) and only left with Jupyter notebook executable syntax.  
-A single bash script was created with extracted bash commands from original training file and were coded systematically to be executed as per lab requirement.
-
 ## Help
-Contributors are welcome to participate in enhancing the automate deployment e.g.  
-  -- Accepting Google Cloud Platform Terms of Service  
-  -- Enhance the scripts to speed up the deployment time
+Contributors are welcome to participate in enhancing the automate deployment e.g. 
+  -- Interact with Google Console via command line (to grab username and password) 
+  -- Accepting Google Cloud Platform Terms of Service via command line 
+  -- Enhance the scripts to speed up the deployment time 
   -- Others
 
 ## Credit
