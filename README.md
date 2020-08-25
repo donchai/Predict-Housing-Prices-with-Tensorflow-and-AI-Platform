@@ -10,10 +10,14 @@ Automate deployment, simplify provisioning steps to achieve speed and accuracy.
 1. Visit lab URL (https://google.qwiklabs.com/focuses/3644?parent=catalog) and login to your Qwiklabs account
 2. Launch this lab
 3. Open Google Cloud Console
-4. Activate Cloud Shell
-5. Type following command and hit enter
+4. Accept Google Term and Condition
+5. Activate Cloud Shell
+6. Type following command and hit enter\n
 source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/predict.sh)
-6. Follow on screen instruction on Cloud Shell to complete this lab
+7. Follow on screen instruction on Cloud Shell to complete this lab
+
+## Credit
+Senpai Gil - The Linux Guru for sharing tip and trick
 
 ## Limitation
 
