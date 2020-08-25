@@ -30,11 +30,8 @@ gcloud beta notebooks instances create $PROJECTID \
 # Check my progress
 read -n1 -r -p "Wait for 1 minute for Notebook instance proxy setup, click \"#2 Create the AI Platform notebook instance\" [Check my progress] button to complete, once done press any key to continue to next stage 3/4..."
 
-# Download pre-simplified Jupyter Notebook from GitHub into temporary folder
-curl -o /tmp/cloud-ml-housing-prices.ipynb https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb
-
 # Remote into Notebooks Instance, Download and Prepare Training Script (simplified) from Github
-gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet -- -v 'cd /home/jupyter && /usr/bin/sudo git clone https://github.com/GoogleCloudPlatform/training-data-analyst && /usr/bin/sudo curl -o /home/jupyter/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb && /usr/bin/sudo mkdir /home/jupyter/training-data-analyst/blogs/housing_prices/trainer && /usr/bin/sudo touch /home/jupyter/training-data-analyst/blogs/housing_prices/trainer/__init__.py && /usr/bin/sudo chown jupyter:jupyter -R /home/jupyter/training-data-analyst'
+gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet -- -v 'cd /home/jupyter && /usr/bin/sudo git clone https://github.com/GoogleCloudPlatform/training-data-analyst && /usr/bin/sudo curl -o /home/jupyter/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb && /usr/bin/sudo mkdir /home/jupyter/training-data-analyst/blogs/housing_prices/trainer && /usr/bin/sudo touch /home/jupyter/training-data-analyst/blogs/housing_prices/trainer/__init__.py && /usr/bin/sudo chown jupyter:jupyter -R /home/jupyter/training-data-analyst'
 
 read -n1 -r -p "Click \"#3 Download lab notebook\" [Check my progress] button to complete, once done press any key to continue to next stage 4/4..."
 
