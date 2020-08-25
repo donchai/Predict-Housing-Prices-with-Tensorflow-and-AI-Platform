@@ -16,9 +16,9 @@ A single bash script was created with extracted bash commands from original trai
 3. Open Google Console
 4. Accept Google Cloud Platform Terms of Service
 5. Activate Cloud Shell
-6. Type following command and hit enter  
+6. On Cloud Shell prompt, type following command and hit enter  
 source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/predict.sh)
-7. Follow on screen instruction on Cloud Shell to complete this lab
+7. Follow on-screen instructions on Cloud Shell to complete this lab
 
 ## Screenshot
 1. Accept Google Cloud Platform Terms of Service  
