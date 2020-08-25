@@ -36,7 +36,7 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 
 ## Contribution
 Contributors are welcome to participate in this project to enhance the deployment scripts in order to achieve full automation e.g.   
-  -- Interact with Google Console via command line (to obtain username and password)   
+  -- Interact with Google Console via command line (to obtain username and password for automation after launch lab instead of manually copy and paste)   
   -- Accepting Google Cloud Platform Terms of Service via command line   
   -- Optimze the scripts to speed up the deployment time   
   -- Others
@@ -45,7 +45,7 @@ Contributors are welcome to participate in this project to enhance the deploymen
 Senpai Gil - The Linux Guru for sharing command tip and trick.
 
 ## Limitation
-Unable to accept Google Cloud Term and Condition from SDK/API or via command line, still finding/exploring alternative to automate this manual step.
+Unable to accept Google Cloud Platform Terms of Service from command line, still finding/exploring alternative to automate this manual step.
 
 ## Workaround
 Login to Google Console and accept Google Cloud Platform Terms of Service.
