@@ -12,7 +12,7 @@ Automate deployment, simplify provisioning steps to achieve speed and accuracy.
 3. Open Google Cloud Console
 4. Accept Google Term and Condition
 5. Activate Cloud Shell
-6. Type following command and hit enter\n
+6. Type following command and hit enter  
 source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/predict.sh)
 7. Follow on screen instruction on Cloud Shell to complete this lab
 
