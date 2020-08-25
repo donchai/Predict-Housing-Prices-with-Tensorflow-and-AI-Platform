@@ -34,7 +34,7 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 6. Stage 4 After Complete "Train and deploy the Model for Predictions"
 ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
 
-## Help
+## Contribution
 Contributors are welcome to participate in this project to enhance the deployment scripts in order to achieve full automation e.g.   
   -- Interact with Google Console via command line (to obtain username and password)   
   -- Accepting Google Cloud Platform Terms of Service via command line   
