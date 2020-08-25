@@ -36,7 +36,7 @@ gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet --
 read -n1 -r -p "Click \"#3 Download lab notebook\" [Check my progress] button to complete, once done press any key to continue to next stage 4/4..."
 
 # Remote into Notebooks Instance, Execute Jupyter Notebook
-gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet -- -v 'cd /home/jupyter/training-data-analyst/blogs/housing_prices && /usr/bin/sudo /opt/conda/bin/jupyter nbconvert ml-housing-prices.ipynb --to notebook --clear-output --execute'
+gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet -- -v 'cd /home/jupyter/training-data-analyst/blogs/housing_prices && /usr/bin/sudo /opt/conda/bin/jupyter nbconvert cloud-ml-housing-prices.ipynb --to notebook --clear-output --execute'
 
 # Execute Google Cloud SDK for AI Platform
 gcloud ai-platform local train \
