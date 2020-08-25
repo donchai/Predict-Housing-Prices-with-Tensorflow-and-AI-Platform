@@ -30,17 +30,24 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 6. Stage 4 After Complete "Train and deploy the Model for Predictions"
 ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
 
+## How It Works
+Original training file "cloud-ml-housing-prices.ipynb" was simplified (removed markdown and extracted bash commands into bash shell script) and only left with Jupyter notebook executable syntax.  
+A single bash script was created with extracted bash commands from original training file and were coded systematically to be executed as per lab requirement.
+
+## Help
+Contributors are welcome to participate in enhancing the automate deployment e.g.  
+  -- Accepting Google Cloud Platform Terms of Service  
+  -- Enhance the scripts to speed up the deployment time
+  -- Others
+
 ## Credit
 Senpai Gil - The Linux Guru for sharing command tip and trick.
 
 ## Limitation
-
 Unable to accept Google Cloud Term and Condition from SDK/API, still exploring alternative to automate this manual step.
 
 ## Workaround
-
 Login to Google Cloud Console and accept Google Cloud Platform Terms of Service.
 
 ## Reference 
-
 https://google.qwiklabs.com/focuses/3644?parent=catalog
