@@ -16,6 +16,14 @@ Automate deployment, simplify provisioning steps to achieve speed and accuracy.
 source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/predict.sh)
 7. Follow on screen instruction on Cloud Shell to complete this lab
 
+## Screenshot
+1. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/tnc.png?raw=true) 
+2. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step1.png?raw=true) 
+3. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step2.png?raw=true) 
+4. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step3.png?raw=true) 
+5. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-beforecomplete.png?raw=true) 
+6. ![alt text](https://github.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/blob/master/screenshots/step4-aftercomplete.png?raw=true) 
+
 ## Credit
 Senpai Gil - The Linux Guru for sharing command tip and trick.
 
