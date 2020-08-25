@@ -41,7 +41,7 @@ echo "export MODEL_VERSION=\"v1\"" >> /tmp/remotemod.sh
 echo "export MODEL_LOCATION=\"output/export/Servo/\$(ls output/export/Servo | tail -1)\"" >> /tmp/remotemod.sh
 chmod +x /tmp/remotevar.sh
 chmod +x /tmp/remotemod.sh
-gcloud compute scp /tmp/remotevar.sh /tmp/remotemod.sh ${PROJECTID}:/tmp --zone=us-west1-b
+gcloud compute scp /tmp/remotevar.sh /tmp/remotemod.sh ${PROJECTID}:/tmp --zone=us-west1-b --quiet
 
 # Remote into Notebooks Instance, Download and Prepare Training Script (simplified) from Github
 gcloud compute ssh --project ${PROJECTID} --zone ${ZONE} ${PROJECTID} --quiet -- -v 'cd /home/jupyter && /usr/bin/sudo git clone https://github.com/GoogleCloudPlatform/training-data-analyst && /usr/bin/sudo curl -o /home/jupyter/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb https://raw.githubusercontent.com/donchai/Predict-Housing-Prices-with-Tensorflow-and-AI-Platform/master/training-data-analyst/blogs/housing_prices/cloud-ml-housing-prices.ipynb && /usr/bin/sudo mkdir /home/jupyter/training-data-analyst/blogs/housing_prices/trainer && /usr/bin/sudo touch /home/jupyter/training-data-analyst/blogs/housing_prices/trainer/__init__.py && /usr/bin/sudo chown jupyter:jupyter -R /home/jupyter/training-data-analyst'
