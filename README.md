@@ -38,7 +38,7 @@ source <(curl -s https://raw.githubusercontent.com/donchai/Predict-Housing-Price
 Contributors are welcome to participate in this project to enhance the deployment scripts in order to achieve full automation e.g.   
   -- Interact with Google Console via command line (to obtain username and password for automation after launch lab instead of manually copy and paste)   
   -- Accepting Google Cloud Platform Terms of Service via command line   
-  -- Optimze the scripts to speed up the deployment time   
+  -- Optimise the scripts to speed up the deployment time   
   -- Others
 
 ## Credit
