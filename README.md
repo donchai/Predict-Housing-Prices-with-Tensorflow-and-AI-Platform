@@ -41,9 +41,6 @@ Contributors are welcome to participate in this project to enhance the deploymen
   -- Optimise the scripts to speed up the deployment time   
   -- Others
 
-## Credit
-Senpai Gil - The Linux Guru for sharing command tip and trick.
-
 ## Limitation
 Unable to accept Google Cloud Platform Terms of Service from command line, still finding/exploring alternative to automate this manual step.
 
@@ -57,6 +54,9 @@ https://google.qwiklabs.com/focuses/3644?parent=catalog
 1. File extension with .orig refer to original file without modification/simplification for reference purpose, not in use during deployment. 
 2. File extension with .bak refer to development file for future enhancement reference - not in use during deployment.
 
-## Buy me a coffee
+## Credit
+Senpai Gil - The Linux Guru for sharing command tip and trick.
+
+### Buy me a coffee
 [![Buy me a coffee](https://user-images.githubusercontent.com/6828772/114560921-b37d5280-9c9f-11eb-9746-64f01b0d67e9.png)](https://www.buymeacoffee.com/donchai)
 
